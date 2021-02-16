@@ -1,1 +1,125 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    font-size: 40px;
+    padding: 5rem;
+}
+
+
+.hcont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    margin-right: 4%;
+}
+nav{
+  
+   border:  solid 1px black;
+   margin-right: 5rem;
+}
+div.lsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 50px 200px 75px 300px;
+   height: 500px;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   margin-left: 10rem;
+   margin-right: 10rem;
+   background-image: url(https://picsum.photos/1200/400);
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-text{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3rem;
+
+}.three{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-text2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    margin: 3rem;
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    height: 20px;
+    width: 100%;
+    background-color: grey;
+    padding: 5%;
+    }
+    /
+button{
+    width: 20px;
+    height: 40px;
+    background-color: indigo;
+
+   
+}
+
+   .bg-image{
+    {
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+   }
